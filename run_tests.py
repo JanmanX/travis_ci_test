@@ -8,3 +8,8 @@ if( subprocess.call(["python", "test1.py"]) ):
 if( subprocess.call(["python", "test2.py"])):
     print "Test2 failed"
 
+if( subprocess.call(["python", "test3.py"])):
+    print "Test3 failed"
+    exit(3)
+
+
