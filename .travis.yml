@@ -1,0 +1,6 @@
+language: python
+os: linux
+script:
+        - python test1.py
+        - python test2.py
+
